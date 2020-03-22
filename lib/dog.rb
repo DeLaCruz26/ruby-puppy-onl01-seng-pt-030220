@@ -1,5 +1,5 @@
 class Dog
-  attr_accessor :name
+  attr_accessor
 
   @@all = []
 
@@ -18,7 +18,7 @@ class Dog
 
   def self.print_all
     @@all.each do |dog|
-      puts dog.name
+      puts @@all.name
     end
   end
 
